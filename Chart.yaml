@@ -1,5 +1,5 @@
 apiVersion: v2 # K8S related
 name: nginx
-version: 0.1.0  # This is chart version
-appVersion: 1.0.0 # This is application version like catalogue version
-description: A Helm chart for Kubernetes  # "upgrading to 1.29-trixie"
+version: 0.0.3  # This is chart version
+appVersion: 1.29-trixie # This is application version like catalogue version
+description: "Updated nginx deployment to 1.29.7-trixie version"
