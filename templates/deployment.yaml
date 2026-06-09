@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deployment
+  name: {{ .Values.deployment.name }}
   # This labels are attached to deployment, wont affect pod behaviour
   labels:
     project: roboshop

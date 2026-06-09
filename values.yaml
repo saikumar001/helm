@@ -1,4 +1,5 @@
 deployment:
+  name: "nginx-app-deployment"
   changeCause: "Installing with 1.0.0"
   imageVersion: "1.29.7"
   replicas: 1
