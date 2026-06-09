@@ -1,7 +1,7 @@
 deployment:
   name: "nginx-app-deployment"
-  changeCause: "Installing with 1.0.0"
-  imageVersion: "1.29.7"
+  changeCause: "Updated nginx deployment to 1.29.7-trixie version"
+  imageVersion: "1.29.7-trixie"
   replicas: 1
 service:
   type: LoadBalancer
